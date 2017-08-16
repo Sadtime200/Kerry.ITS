@@ -12,7 +12,7 @@
     <div style="height: 62px">
     
         <asp:Label ID="Label1" runat="server" Text="主单号："></asp:Label>
-        <asp:TextBox ID="TxtConsolNO" runat="server">请输入主单号</asp:TextBox>
+        <asp:TextBox ID="TxtConsolNO" runat="server">Pls input the master no</asp:TextBox>
 &nbsp;&nbsp;&nbsp;
         <asp:Button ID="BtnUpdateviaConsolNO" runat="server" OnClientClick="BtnUpdateviaConsolNO_Click" Text="确认" />
         <asp:Button ID="Btn_Submit_MasterNO" runat="server" OnClick="Btn_Submit_MasterNO_Click" Text="提交" />
